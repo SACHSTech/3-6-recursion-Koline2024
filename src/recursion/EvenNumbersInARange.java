@@ -9,12 +9,12 @@ public class EvenNumbersInARange {
        }
 
        if(start % 2 == 0){
-        System.out.println(start);
+        System.out.print(start + " ");
        }
     }
 
     public static void main(String[] args) {
-        printEvens(1, 5); 
+        printEvens(2, 5); 
     }
     
 }
