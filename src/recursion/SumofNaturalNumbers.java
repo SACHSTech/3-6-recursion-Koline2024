@@ -15,5 +15,4 @@ public class SumofNaturalNumbers {
         System.out.println(sum(5)); // Output: 15
     }
 
-    
 }

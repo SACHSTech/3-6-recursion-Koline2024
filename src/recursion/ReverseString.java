@@ -1,15 +1,15 @@
 package recursion;
 
 public class ReverseString {
-    
-    public static String reverseString(String s){
-        
-        //base case
-        if(s.isEmpty()){
+
+    public static String reverseString(String s) {
+
+        // base case
+        if (s.isEmpty()) {
             return s;
         }
 
-        //recursive case
+        // recursive case
         return reverseString(s.substring(1)) + s.charAt(0);
 
     }
